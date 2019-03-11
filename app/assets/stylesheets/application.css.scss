@@ -24,14 +24,10 @@ h1, h2, h3 {
     background-color: #e3f2fd;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a  {
     color: black;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: black;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    opacity: 0.75;
+    &:hover {
+        opacity: 0.75;
+    }
 }
