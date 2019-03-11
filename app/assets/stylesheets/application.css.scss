@@ -2,11 +2,15 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+/* Typography Styles*/
 h1, h2, h3 {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Background Gradient*/
 .home-callout {
     //Gradient by @_ighosh at uigradients.com
     background: #aa4b6b;  /* fallback for old browsers */
@@ -19,6 +23,7 @@ h1, h2, h3 {
     text-shadow: 1px 1px black;
 }
 
+/* Navbar Style */
 .navbar {
     border: none;
     background-color: #e3f2fd;
