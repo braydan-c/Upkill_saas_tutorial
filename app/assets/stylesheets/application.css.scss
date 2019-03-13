@@ -1,4 +1,6 @@
-
+/*= require_tree .
+ *= require_self
+ */
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -46,8 +48,8 @@ h1, h2, h3 {
 .navbar-default .navbar-toggle {
     border: hidden;
     background-color: #e3f2fd;
-    &:hover, &:focus {
-        background-color: #c6edf7
+    &:hover {
+        background-color: #c6edf7;
     }
 }
 
