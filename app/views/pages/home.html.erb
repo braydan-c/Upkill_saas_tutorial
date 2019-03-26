@@ -1,25 +1,24 @@
-<div class="home-callout text-center container-fluid">
-    <h1>Welcome to DevMatch</h1>
+<div class="home-callout container-fluid">
+    <h1 class="header">DevConnect</h1>
     <br/>
-    <h4>The home for matching with world-leading developers</h4>
+    <h4>The home for connecting with world-leading developers</h4>
 </div>
-
-<div class="container">
+<div class="container home-signup-links">
   <div class="row">
     <div class="col-md-6">
       <div class="well">
-        <h2 class="text-center">Basic membership link</h2>
-        <h4 class="text-center">Sign up for free and get basic access to the community</h4>
+        <h2 class="text-center">Basic Membership</h2>
+        <h4 class="text-center">Sign up for free and get basic access to the community.</h4>
         <br/>
-        <%= link_to "Sign up with Basic", "#", class: 'btn btn-primary btn-lg btn-block' %>
+        <%= link_to "Sign up with Basic Plan", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
       </div>
     </div>
     <div class="col-md-6">
       <div class="well">
-        <h2 class="text-center">Pro membership link</h2>
-        <h4 class="text-center">Sign up for the Premium account for $500/month and get access to the community and contact information!</h4>
-        <%= link_to "Sign up with Pro", "#", class: 'btn btn-success btn-lg btn-block' %>
+        <h2 class="text-center">Premium Membership</h2>
+        <h4 class="text-center">Sign up for the pro account for $500/month and get access to the community and contact information!</h4>
+        <%= link_to "Sign up with Premium Plan", "#", class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
-  </div>  
+  </div>
 </div>
