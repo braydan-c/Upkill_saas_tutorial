@@ -64,10 +64,19 @@
       <% end %>
   </div>
     <%= yield %>
-    
-  <nav class="navbar navbar-fixed-bottom navbar-light bg-light">
-    <a class="terms_conds" href="#">Terms and Conditions</a>
-  </nav>
-  
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+   <div class="container-fluid">
+    <ul class="nav navbar-nav">
+       <li><%= link_to "Terms and Conditions", about_path %></li>
+       <li><%= link_to "Privacy Statement", new_contact_path %></li>
+       <li><%= link_to "Development Team", new_user_session_path %></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right defiance">
+      <li><%= link_to "Defiance Developers", new_user_registration_path, class: "defiance" %></li>
+    </ul>
+   </div>
+</nav> 
+
   </body>
 </html>
