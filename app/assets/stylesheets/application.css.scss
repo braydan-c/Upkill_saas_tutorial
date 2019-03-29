@@ -3,7 +3,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-/* Typography Styles*/
+// Typography Styles
 h2, h3, h4 {
     font-family: "Open Sans", sans-serif;
     color: black;
@@ -13,6 +13,8 @@ h4 {
     margin-top: 0px;
 }
 
+
+
 .header {
     font-size: 90px;
     margin-bottom: 0px;
@@ -20,7 +22,7 @@ h4 {
     text-shadow: 1px 1px black;
 }
 
-/* Background Gradient*/
+// Background Gradient
 .home-callout {
     padding-bottom: 80px;
     padding-top: 40px;
@@ -29,7 +31,7 @@ h4 {
     color: rgb(177, 205, 205);
 }
 
-/* Navbar Style */
+// Navbar Style 
 .navbar, .home-callout {
     border: none;
     background-color: #e3f2fd;
@@ -48,7 +50,7 @@ h4 {
     }
 }
 
-/* Burger Button Style */
+// Burger Button Style
 .navbar-default .navbar-toggle {
     border: hidden;
     background-color: #e3f2fd;
