@@ -64,13 +64,18 @@ h4 {
 }
 
 // Homeb page Styles
-.alert-notice {
-  display: none;
-}
-
-
 .home-signup-links {
   margin-top: 30px;
+}
+
+.alert-notice, .alert-alert {
+    position: absolute;
+    background: #cee7f9;
+    text-align: center;
+    width: 100%;
+    border-color: black;
+    margin-top: -14px;
+    left: 0px;
 }
 
 // Bottom navbar Styles
