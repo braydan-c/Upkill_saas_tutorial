@@ -13,13 +13,34 @@ h4 {
     margin-top: 0px;
 }
 
-
-
 .header {
     font-size: 90px;
     margin-bottom: 0px;
     font-family: "Agency FB", Open Sans;
     text-shadow: 1px 1px black;
+}
+
+//Users profile styles
+.lego-man {
+  width: 128px;
+  height: 128px;
+}
+
+.well.profile-block {
+    color: #fff;
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.well.profile-description {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.well.profile-contact-info {
+    background-color: #5bc0de;
+    border-color: #46b8da;
 }
 
 // Background Gradient
