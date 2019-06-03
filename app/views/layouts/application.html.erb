@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Saasapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DevConnect</title>
     <%= csrf_meta_tags %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -66,19 +67,6 @@
       <% end %>
   </div>
     <%= yield %>
-
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-       <div class="container-fluid">
-        <ul class="nav navbar-nav">
-           <li><%= link_to "Terms and Conditions", about_path %></li>
-           <li><%= link_to "Privacy Statement", new_contact_path %></li>
-           <li><%= link_to "Development Team", new_user_session_path %></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right defiance">
-          <li><%= link_to "Defiance Developers", new_user_registration_path, class: "defiance" %></li>
-        </ul>
-       </div>
-    </nav> 
 
   </body>
 </html>
